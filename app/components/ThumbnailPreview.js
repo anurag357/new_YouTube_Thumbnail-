@@ -41,9 +41,9 @@ export default function ThumbnailPreview({ imageUrl, prompt }) {
           </svg>
         </button>
       </div>
-      <p className="mt-2 text-gray-600 text-sm text-center md:text-left">
+      {/* <p className="mt-2 text-gray-600 text-sm text-center md:text-left">
         Prompt used: {prompt}
-      </p>
+      </p> */}
     </div>
   );
 }
