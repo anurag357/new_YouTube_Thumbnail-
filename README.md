@@ -1,33 +1,97 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🎬 YouTube Thumbnail Generator (Next.js)
+
+An AI-powered **YouTube Thumbnail Generator** built with **Next.js**, where users can upload an image, answer a short questionnaire, and generate engaging thumbnails tailored for their video goals.  
+
+---  
+
+## 🌐 Live Demo
+- - 👉 [YouTube Thumbnail Generator](https://new-you-tube-thumbnail.vercel.app/)
+
+## ✨ Features
+- 📤 Upload your own image as the base thumbnail  
+- 📝 Answer a few simple questions to personalize your thumbnail  
+- 🖼️ AI-powered thumbnail generation  
+- ⬇️ Download thumbnails with a single click (download icon overlay)  
+- ❌ Closeable popup with a wait message during generation  
+- 📱 Fully responsive UI  
+
+---
+
+## 🛠️ Tech Stack
+- **Frontend**: [Next.js](https://nextjs.org/) (React + App Router)  
+- **Styling**: Tailwind CSS  
+- **AI Image Generation**: OpenAI / Google AI Studio APIs  
+- **Hosting**: Vercel (recommended)  
+
+---
 
 ## Getting Started
 
-First, run the development server:
 
+### 1️⃣ Clone the repo
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone https://github.com/anurag357/new_YouTube_Thumbnail-.git
+cd new_YouTube_Thumbnail
+
 ```
+##  Install Dependencies
+- npm install
+# or
+- yarn install
+# or
+- pnpm install
+# or
+- bun install
+
+
+# Setup environment variables
+ - Create a .env.local file and add your API key:
+ - OPENAI_API_KEY=your_api_key_here 
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 📖 Usage
 
-## Learn More
+- [x] Upload an image you want to use in your thumbnail
 
-To learn more about Next.js, take a look at the following resources:
+- [x] Fill out the short questionnaire
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- [x] Click Generate Thumbnail
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- [x] Wait for the AI to generate your thumbnail (popup will show "Please wait...")
+
+- [x] Download your thumbnail using the download arrow icon
+
+## 🧾 Example Questions (Questionnaire)
+
+- When generating your thumbnail, you’ll be asked:
+
+- Which segment are you in?
+(e.g., Tech, Gaming, Education, Lifestyle, Fitness, Finance, Motivation)
+
+- What’s your video goal?
+- - (e.g., Get clicks with curiosity, Explain a concept clearly, Sell a product/course, Build authority, Go viral)
+
+- Who’s your audience?
+- - (e.g., Students, Working professionals, Gamers, Entrepreneurs, Beginners in tech, General YouTube viewers)
+
+
+## ✅ To-Do / Future Improvements
+
+- 🔥 Add multiple thumbnail style options (bold text, minimal, modern)
+
+- 🌎 Support multilingual prompts
+
+- 🎨 Allow text overlays with custom fonts/colors
+
+- ☁️ Deploy with Vercel + Cloudflare CDN
+
+## 📷 Screenshots
+- [Generated Screenshot](public/screenshots/thumbnail1.png)
+- [Generated Screenshot](public/screenshots/thumbnail2.png)
+- [Generated Screenshot](public/screenshots/thumbnail3.png)
+- [Generated Screenshot](public/screenshots/thumbnail4.png)
 
 ## Deploy on Vercel
 
