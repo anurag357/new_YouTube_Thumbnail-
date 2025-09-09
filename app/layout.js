@@ -1,4 +1,6 @@
 import "./globals.css";
+import NextAuthSessionProvider from "../providers/SessionProvider";
+
 
 import { Geist, Geist_Mono } from "next/font/google";
 
@@ -23,7 +25,7 @@ export default function RootLayout({ children }) {
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        {children}
+       <NextAuthSessionProvider>{children}</NextAuthSessionProvider> 
       </body>
     </html>
   );
