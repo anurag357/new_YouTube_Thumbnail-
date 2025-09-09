@@ -136,8 +136,8 @@ export default function LandingPage() {
         {/* First row */}
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 sm:gap-8 mb-8">
           <div className="bg-gray-900/40 border border-gray-700/50 rounded-2xl p-4 sm:p-6 shadow-xl">
-            <div className="bg-gray-800 rounded-xl overflow-hidden flex items-center justify-center h-72">
-              <img src="/images/MountainLandscape.webp" alt="Mountain Preview" className="object-cover w-full h-full" />
+            <div className="bg-gray-800 rounded-xl overflow-hidden flex items-center justify-center h-72 group">
+              <img src="/images/MountainLandscape.webp" alt="Mountain Preview" className="object-cover w-full h-full transition-transform duration-500 ease-in-out transform group-hover:scale-110" />
             </div>
             <p className="mt-4 text-gray-400 text-center text-sm sm:text-base">
               Watch how AI enhances natural landscapes into eye-catching thumbnails.
@@ -145,8 +145,8 @@ export default function LandingPage() {
           </div>
 
           <div className="bg-gray-900/40 border border-gray-700/50 rounded-2xl p-4 sm:p-6 shadow-xl">
-            <div className="bg-gray-800 rounded-xl overflow-hidden flex items-center justify-center h-72">
-              <img src="/images/GardenLandscape.webp" alt="Garden Preview" className="object-cover w-full h-full" />
+            <div className="bg-gray-800 rounded-xl overflow-hidden flex items-center justify-center h-72 group">
+              <img src="/images/GardenLandscape.webp" alt="Garden Preview" className="object-cover w-full h-full transition-transform duration-500 ease-in-out transform group-hover:scale-110" />
             </div>
             <p className="mt-4 text-gray-400 text-center text-sm sm:text-base">
               See serene garden scenes transformed with vibrant details and depth.
@@ -157,8 +157,8 @@ export default function LandingPage() {
         {/* Second row */}
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 sm:gap-8">
           <div className="bg-gray-900/40 border border-gray-700/50 rounded-2xl p-4 sm:p-6 shadow-xl">
-            <div className="bg-gray-800 rounded-xl overflow-hidden flex items-center justify-center h-72">
-              <img src="/images/Cityscape.jpg" alt="City Preview" className="object-cover w-full h-full" />
+            <div className="bg-gray-800 rounded-xl overflow-hidden flex items-center justify-center h-72 group">
+              <img src="/images/Cityscape.jpg" alt="City Preview" className="object-cover w-full h-full transition-transform duration-500 ease-in-out transform group-hover:scale-110" />
             </div>
             <p className="mt-4 text-gray-400 text-center text-sm sm:text-base">
               Explore dynamic cityscapes rendered with sharpness and striking colors.
@@ -166,8 +166,8 @@ export default function LandingPage() {
           </div>
 
           <div className="bg-gray-900/40 border border-gray-700/50 rounded-2xl p-4 sm:p-6 shadow-xl">
-            <div className="bg-gray-800 rounded-xl overflow-hidden flex items-center justify-center h-72">
-              <img src="/images/SpaceNebula.jpg" alt="Space Preview" className="object-cover w-full h-full" />
+            <div className="bg-gray-800 rounded-xl overflow-hidden flex items-center justify-center h-72 group">
+              <img src="/images/SpaceNebula.jpg" alt="Space Preview" className="object-cover w-full h-full transition-transform duration-500 ease-in-out transform group-hover:scale-110" />
             </div>
             <p className="mt-4 text-gray-400 text-center text-sm sm:text-base">
               Experience otherworldly visuals crafted with attention to lighting and texture.
@@ -175,6 +175,7 @@ export default function LandingPage() {
           </div>
         </div>
       </section>
+
 
 
 
@@ -247,11 +248,11 @@ export default function LandingPage() {
           </div>
         </div>
       </section>
-          {/* FAQSection components */}
+      {/* FAQSection components */}
 
-        <div>
-          <FAQSection />
-        </div>
+      <div>
+        <FAQSection />
+      </div>
 
 
       {/* Footer */}
